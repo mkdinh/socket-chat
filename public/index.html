@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Simple Chat App with Socket.IO</title>
+        <link rel="stylesheet" href="./style.css"/>
+    </head>
+
+    <body>
+        <div id="message-wrapper">
+            <div id="message-box"></div>
+
+            <div id="message-input-wrapper">
+                <form id="message-form">
+                    <input type="text" placeholder="Name" class="message-input" id="message-name"/>
+                    <input text="text" placeholder="Mesage" class="message-input" id="message-body"/>
+                    <input type="submit" class="message-input" id="message-submit"/>
+                </form>
+            </div>
+        </div>
+            
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
+        <script type="text/javascript" src="./chat.js"></script>
+    </body>
+</html>
+
